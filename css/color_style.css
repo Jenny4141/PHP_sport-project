@@ -1,0 +1,81 @@
+:root {
+  --dark-blue: #0b114f;
+  --deep-indigo: #030083;
+  --midnight-blue: #0b114f;
+  --ocean-blue: #0041cf;
+  --sky-blue: #1774d3;
+  --peach-cream: #fecc99;
+  --sunset-orange: #fc7f00;
+  --burnt-orange: #fe6601;
+
+}
+
+.text-dark-blue {
+  color: var(--dark-blue) !important;
+}
+
+.text-deep-indigo {
+  color: var(--deep-indigo) !important;
+}
+
+.text-midnight-blue {
+  color: var(--midnight-blue) !important;
+}
+
+.text-ocean-blue {
+  color: var(--ocean-blue) !important;
+}
+
+.text-sky-blue {
+  color: var(--sky-blue) !important;
+}
+
+.text-peach-cream {
+  color: var(--peach-cream) !important;
+}
+
+.text-ocean-blue {
+  color: var(--ocean-blue) !important;
+}
+
+.text-sunset-orange {
+  color: var(--sunset-orange) !important;
+}
+
+.text-burnt-orange {
+  color: var(--burnt-orange) !important;
+}
+
+.btn-outline-primary {
+  border-color: var(--ocean-blue) !important;
+  color: var(--ocean-blue) !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--ocean-blue) !important;
+  color: white !important;
+}
+
+.btn-outline-success {
+  border-color: var(--burnt-orange) !important;
+  color: var(--burnt-orange) !important;
+}
+
+.btn-outline-success:hover {
+  background-color: var(--burnt-orange) !important;
+  color: white !important;
+}
+
+.btn-outline-info {
+  border-color: var(--sky-blue) !important;
+  color: var(--sky-blue) !important;
+}
+
+.btn-outline-info:hover {
+  background-color: var(--sky-blue) !important;
+  color: white !important;
+}
+
+.nav-item a:hover {
+  color: var(--sky-blue) !important;
+}
