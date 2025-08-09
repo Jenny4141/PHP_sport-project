@@ -157,7 +157,7 @@ $rows = $stmt->fetchAll();
 
 <?php include __DIR__ . '/parts/html-scripts.php' ?>
 <script>
-  // ✅ 搜尋模塊（支援不分大小寫並避免 HTML 結構破壞）
+  // 搜尋模塊（支援不分大小寫並避免 HTML 結構破壞）
   const $_GET = <?= json_encode($_GET) ?>;
   const keyword = $_GET.search;
 
@@ -177,7 +177,7 @@ $rows = $stmt->fetchAll();
 
   document.addEventListener("DOMContentLoaded", () => {
 
-    // ✅ 表單刪除模塊
+    // 表單刪除模塊
     const deleteButtons = document.querySelectorAll(".delete-btn");
     let deleteId = null; // 存儲要刪除的 ID
     let deleteRow = null; // 存儲要刪除的行
